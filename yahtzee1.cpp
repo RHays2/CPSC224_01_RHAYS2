@@ -107,7 +107,7 @@ while (playAgain == 'y')
     cout << "Chance line" << endl;
     cout << "\nEnter 'y' to play again ";
     cin >> playAgain;
-}
+  }
     return 0;
 }
 int rollDie()
