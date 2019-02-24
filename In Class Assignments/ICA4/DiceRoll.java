@@ -1,3 +1,9 @@
+/***************
+In Class Assignment #4
+Due Date: 2/23/19
+Names: Ryan Hays
+********************/
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
