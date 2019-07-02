@@ -1,3 +1,9 @@
+/***************
+In Class Assignment #3
+Due Date: 2/15/19
+Names: Ryan Hays
+********************/
+
 import javax.swing.*;    // Needed for Swing classes
 import java.awt.event.*; // Needed for event listener interface
 
@@ -11,9 +17,8 @@ public class LatinTranslator extends JFrame
    private JButton latin1;    // Button 1
    private JButton latin2;    // Button 2
    private JButton latin3;    // Button 3
-   private JLabel messageLabel;
    private JPanel panel;       // A panel to hold components
-   private final int WINDOW_WIDTH = 250; // Window width
+   private final int WINDOW_WIDTH = 300; // Window width
    private final int WINDOW_HEIGHT = 150; // Window height
 
    /**
@@ -23,7 +28,6 @@ public class LatinTranslator extends JFrame
    public LatinTranslator()
    {
       setTitle("Latin Translator");
-      messageLabel = new JLabel("-----------------------------------------------");
       setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -39,7 +43,6 @@ public class LatinTranslator extends JFrame
 
       // Create a panel and add the buttons to it.
       panel = new JPanel();
-      panel.add(messageLabel);
       panel.add(latin1);
       panel.add(latin2);
       panel.add(latin3);
